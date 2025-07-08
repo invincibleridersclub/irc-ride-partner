@@ -1,79 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IRC Ride Partner – Data Deletion Request</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 2rem;
-      background-color: #f8f9fa;
-      color: #333;
-    }
-    h1 {
-      color: #2c3e50;
-    }
-    a.button {
-      display: inline-block;
-      background-color: #007BFF;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 4px;
-      margin-top: 1rem;
-    }
-    .note {
-      background: #e9ecef;
-      padding: 1rem;
-      border-left: 4px solid #007BFF;
-      margin-top: 1.5rem;
-    }
-  </style>
-</head>
-<body>
-  <h1>IRC Ride Partner – Data Deletion Request</h1>
-  <p>
-    This page allows users of the <strong>IRC Ride Partner</strong> app, developed by
-    <strong>Invincible Riders Club</strong>, to request deletion of their account and data.
-  </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>IRC Ride Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-800 font-sans">
 
-  <h2>How to Request Data Deletion</h2>
-  <ol>
-    <li>Click the button below to open the Data Deletion Form.</li>
-    <li>Fill in your registered email or phone number.</li>
-    <li>Select the type of data you want to delete (e.g., entire account, ride history, etc.).</li>
-    <li>Submit the form. Our team will verify your identity and process the request.</li>
-  </ol>
+    <!-- Hero -->
+    <section class="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+      <h1 class="text-5xl font-bold mb-4">IRC Ride Partner</h1>
+      <p class="text-xl max-w-xl mb-6">Plan your rides, track progress, manage expenses and enjoy group biking like never before.</p>
+      <div class="flex gap-4">
+        <a href="#" class="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition">Coming Soon on Play Store</a>
+      </div>
+    </section>
 
-  <a href="https://forms.gle/your-google-form-id" target="_blank">
-  <button style="
-    background-color: #2563eb;
-    color: white;
-    padding: 0.8rem 1.5rem;
-    border: none;
-    border-radius: 8px;
-    font-size: 1rem;
-    cursor: pointer;">
-    Request Data Deletion
-  </button>
-</a>
+    <!-- Features -->
+    <section class="py-16 px-6 max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10">Key Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Multi-Destination Ride Planning</h3>
+          <p>Plan complex routes with multiple stops, preview on maps, and share with your crew.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Group Ride Coordination</h3>
+          <p>Invite friends, assign tasks, and progress together—every leg of the ride is tracked.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Ride Expenses & To-Do Lists</h3>
+          <p>Track who spent what and manage ride prep checklists with shared to-dos.</p>
+        </div>
+      </div>
+    </section>
 
-
-  <div class="note">
-    <strong>What happens after deletion:</strong>
-    <ul>
-      <li>Your account and associated data will be deleted within 7 business days.</li>
-      <li>Data types deleted: Authentication info, ride history, expenses, to-do lists.</li>
-      <li>We may retain crash logs or analytics for diagnostics (not linked to your identity).</li>
-    </ul>
-  </div>
-
-  <p>
-    For questions or issues, contact us at
-    <a href="mailto:club.invincibleriders@gmail.com">club.invincibleriders@gmail.com</a>.
-  </p>
-</body>
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-8 px-4 text-center text-sm text-gray-600">
+      <p>&copy; 2025 IRC Ride Partner. All rights reserved.</p>
+      <p>Contact: support@ircridepartner.in</p>
+    </footer>
+  </body>
 </html>
